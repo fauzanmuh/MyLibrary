@@ -298,7 +298,7 @@ public class TestC1MyData101 extends ViewTest {
         scenario.onActivity(main -> {
             Context context = main.getApplicationContext();
             Intent intent = new Intent(main, ShowDataActivity.class);
-            intent.putExtra("filename", "0");
+            intent.putExtra("filename", "");
             intent.setFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
             main.startActivity(intent);
 

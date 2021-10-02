@@ -223,7 +223,7 @@ public class TestC1MyData071 extends ViewTest {
 */
         });
     }
-
+/*
     @Test
     public void check_06_BookData_Class_saveBookData() {
         scenario.onActivity(activity -> {
@@ -259,7 +259,7 @@ public class TestC1MyData071 extends ViewTest {
                     "Method 'getBookList()' should refer to field 'fileList'",1);
         });
     }
-
+*/
     public String getFileContent(File f) {
         String res = "";
         try {
